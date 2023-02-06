@@ -22,5 +22,12 @@
 				@apply -ml-3;
 			}
 		}
+
+		&.active {
+			@apply text-[#ff9846];
+			svg {
+				@apply -ml-3;
+			}
+		}
 	}
 }

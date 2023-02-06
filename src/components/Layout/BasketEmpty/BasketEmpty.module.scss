@@ -2,7 +2,7 @@
 	&__card {
 		@apply bg-[#F2F2F2] text-center rounded-md overflow-hidden mb-5;
 		&-title {
-			@apply text-2xl mb-[10px] px-3 mt-3;
+			@apply text-2xl mb-[10px] px-3 mt-3 font-medium;
 		}
 		&-subtitle {
 			@apply text-[#A4ACAD] text-lg mb-7 px-3;

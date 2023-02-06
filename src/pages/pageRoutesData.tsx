@@ -11,6 +11,8 @@ import {
 	Wok,
 	Stocks,
 	Home,
+	Review,
+	Order,
 } from './'
 
 interface IPageRoute {
@@ -26,6 +28,18 @@ export const pageRoutesData: IPageRoute[] = [
 		iconName: '',
 		label: '',
 		element: <Home />,
+	},
+	{
+		path: '/reviews',
+		iconName: '',
+		label: '',
+		element: <Review />,
+	},
+	{
+		path: '/order',
+		iconName: '',
+		label: '',
+		element: <Order />,
 	},
 	{
 		path: '/pizza',

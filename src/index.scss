@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body {
-	@apply bg-[#f2f2f2] text-black;
+	@apply bg-[#f2f2f2] text-black font-normal;
 }
 
 .container {
 	@apply mx-auto px-[15px] max-w-[980px];
+}
+
+img {
+	@apply max-w-full max-h-full block;
 }

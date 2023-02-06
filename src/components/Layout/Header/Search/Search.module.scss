@@ -1,0 +1,6 @@
+.search {
+	@apply absolute right-9 -bottom-1;
+	&__input {
+		@apply bg-[#F2F2F2] outline-none border-b border-[#A4ACAD] w-[270px] p-2;
+	}
+}

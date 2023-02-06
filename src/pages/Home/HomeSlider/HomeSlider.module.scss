@@ -1,0 +1,12 @@
+.home__slider {
+	@apply pb-10;
+	&-slide {
+		@apply h-[470px] bg-cover bg-center;
+	}
+	.swiper-pagination-bullet {
+		@apply w-2 h-2 rounded-full bg-[#A4ACAD];
+		&-active {
+			@apply w-[10px] h-[10px] rounded-full bg-[#FF9846];
+		}
+	}
+}
