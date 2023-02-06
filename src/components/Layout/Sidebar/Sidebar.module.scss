@@ -1,0 +1,26 @@
+.sidebar {
+	@apply w-full max-w-xs bg-white pr-10 pl-[100px] text-right;
+}
+
+.nav {
+	&__list {
+		@apply pt-4 border-t border-[#A4ACAD] pl-7;
+	}
+	&__item {
+	}
+	&__link {
+		@apply flex items-center text-black transition-all duration-300 py-4;
+
+		svg {
+			@apply mr-5 relative transition-all duration-300;
+		}
+
+		&:hover {
+			color: #ff9846;
+
+			svg {
+				@apply -ml-3;
+			}
+		}
+	}
+}
