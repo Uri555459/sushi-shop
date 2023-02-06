@@ -27,6 +27,11 @@ export const Header: FC = () => {
 						<span>работаем с 10:00 до 00:00</span>
 					</div>
 				</div>
+
+				<div className={styles.header__city}>
+					<span className={styles['header__city-dropdown']}>Город:</span>
+					<span className={styles['header__city-name']}>Бишкек</span>
+				</div>
 			</div>
 		</header>
 	)

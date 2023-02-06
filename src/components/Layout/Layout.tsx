@@ -9,6 +9,7 @@ import { Footer } from './Footer/Footer'
 import styles from './Layout.module.scss'
 
 import { pageRoutesData } from '../../pages/pageRoutesData'
+import { BasketEmpty } from './BasketEmpty/BasketEmpty'
 
 export const Layout: FC = () => {
 	return (
@@ -29,7 +30,9 @@ export const Layout: FC = () => {
 					<Footer />
 				</div>
 			</div>
-			<Basket />
+			<Basket>
+				<BasketEmpty />
+			</Basket>
 		</div>
 	)
 }
